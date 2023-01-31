@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пианинко</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="piano">
+        <div class="piano-wrapper">
+            <div class="piano-dots">...</div>
+            <p class="piano-name">lsp33-1 mini</p>
+            <div class="piano-column">
+                <div class="piano-column__dots"></div>
+                <input class="piano-column__range" type="range" id="volume" name="volume" min="0" max="1" step="0.01" orient="vertical" value="1">
+                <label for="volume">Громкость</label>
+            </div>
+            <div class="piano-display">
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                    <div class="piano-display__tale piano-display__tale--c"></div>
+                </div>
+                
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                    <div class="piano-display__tale piano-display__tale--d"></div>
+                </div>
+
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                    <div class="piano-display__tale piano-display__tale--e"></div>
+                </div>
+
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                    <div class="piano-display__tale piano-display__tale--f"></div>
+                </div>
+
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                    <div class="piano-display__tale piano-display__tale--g"></div>
+                </div>
+
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                    <div class="piano-display__tale piano-display__tale--a"></div>
+                </div>
+
+                <div class="piano-display__row">
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                    <div class="piano-display__tale piano-display__tale--b"></div>
+                </div>
+            </div>
+            <div class="piano-keys">
+                <div class="piano-keys__key" data-key="q"><span class="piano-keys__key-description">q</span></div>
+                <div class="piano-keys__key" data-key="w"><span class="piano-keys__key-description">w</span></div>
+                <div class="piano-keys__key" data-key="e"><span class="piano-keys__key-description">e</span></div>
+                <div class="piano-keys__key" data-key="r"><span class="piano-keys__key-description">r</span></div>
+                <div class="piano-keys__key" data-key="t"><span class="piano-keys__key-description">t</span></div>
+                <div class="piano-keys__key" data-key="y"><span class="piano-keys__key-description">y</span></div>
+                <div class="piano-keys__key" data-key="u"><span class="piano-keys__key-description">u</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
